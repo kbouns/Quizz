@@ -68,7 +68,7 @@ const checkAns = (e,ans)=> {
             <li ref={Option3} onClick={(e)=>{checkAns(e,3)}}>{question.option3}</li>
             <li ref={Option4} onClick={(e)=>{checkAns(e,4)}}>{question.option4}</li>
         </ul>
-        <button onClick={next}>Suivasnt</button>
+        <button onClick={next}>Suivant</button>
         <div className='index'>{index+1} sur {data.length} question</div></>}
         {result?<>
             <h2>Tu as marqué {score} sur {data.length}</h2>
